@@ -1,2 +1,2 @@
-# kyles_mind
+# Kyle's Mind
 Little solves and thinking stuffs
