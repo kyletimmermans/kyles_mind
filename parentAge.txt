@@ -15,7 +15,8 @@ THey had you 20 years ago, now they are 50 so we take them back 20 years
 They were 30 years old when you were born
 
 Diagram:
-					30 years old when you were born
-					 | 
+
+	30 years old when you were born
+		     | 
  0 [:::::::::::::::::::::::::::::::::] 50
- 				   0 [:::::::::::::::] 20
+                   0 [:::::::::::::::] 20
