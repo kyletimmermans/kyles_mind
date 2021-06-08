@@ -17,7 +17,7 @@ Positional arguments fit in to each parameter both depending on where they lay
 e.g.
 
 def example(num1, num2)
-	          \    /	
+	      \    /	
        example(1, 2)
 
 
@@ -25,15 +25,24 @@ Keyword arguments can lay anywhere because they are mapped to their parameter by
 thus, they can be placed anywhere, and still be drawn out to where they are supposed to go
 from the argument --> to the parameter keyword --> to the original parameter
 e.g.		
-			   ____________	
-			  |			   |	
+	       ____________	
+	      |	           |	
 def example(num1, num2)    |
-			       / 	   |	
-			      /       _|
-			     /       /
-		        /       /
-		       /       /
-		      /	   	  /
-		     /       /
+	           / 	   |	
+	          /       _|
+	         /       /
+	        /	/
+       	       /       /
+      	      /	      /
+     	     /       /
 example(num2=2, num1=1)
+
+
+Mapping example:
+
+def example(num1, num2)  
+             ^
+             |
+             |
+           num1=  <--  1	
 '''
