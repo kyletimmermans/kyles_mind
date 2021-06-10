@@ -17,6 +17,8 @@
 	bool x = false
 
 	"!x"  ==  "x == false" : Both of these statements are true
+	
+	We use !var when we want false things to run as true
 */
 
 #include <iostream>
