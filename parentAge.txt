@@ -1,6 +1,6 @@
-How would calculate the age of your parent when you were born?
+How would calculate the age of your parents when you were born?
 
-They concieved you "your current age" years ago, they had you at 1 and now you are "your current age"
+They concieved you "your current age" years ago, they had you at 0 and now you are "your current age"
 
 Take your parents' current age, they had you x years ago, take their age into the past with you x years ago
 
