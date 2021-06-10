@@ -26,4 +26,6 @@ int main() {
 
 		cout << endl; // Next line
 	}
+	
+	return 0;
 }
