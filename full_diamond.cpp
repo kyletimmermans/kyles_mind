@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-	// Only odd numbers of stars stack properly with spaces 
+	// Only odd numbers of chars stack properly (needs spaces along side stars)
 
 	int size;
 
