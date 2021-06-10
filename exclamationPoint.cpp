@@ -39,4 +39,6 @@ int main()
 	}
 
 	// Output: This will run
+	
+	return 0;
 }
