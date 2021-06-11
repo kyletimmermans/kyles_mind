@@ -22,6 +22,7 @@ int main() {
 	}
 
 	// Bottom half of diamond (long lines to short lines)
+	// Size-1 bc we want a mirror affect and symmetry over one longest line, not 2
 	for (int i=size-1; i>=1; --i) {  // 10, 9, 8, 7, ...
 		cout << string(size-i, ' ');
 		for (int j=i; j>=1; --j) {
