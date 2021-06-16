@@ -4,6 +4,11 @@ It is an array of arrays in which all the arrays represent all of the nodes in a
 Each array is the size of how many nodes there are in the graph, so we know how far it is
 from each node, to every other node.
 
+Each array contains eveything in the graph:
+-Row numbers = All the nodes
+-Row numbers and index numbers of array = All the Connections
+-Values in arrays = Weights of Edges (Connections)
+
 Note: Values of 0 indicate no connection or connection to itself
 '''
 
