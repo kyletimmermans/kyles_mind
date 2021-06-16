@@ -20,7 +20,7 @@
 		b = a(ab) - b = a
 		a = a(ab) - b(a) = b
 		
-		a = b, b =a
+		a = b, b = a
 */
 
 #include <iostream>
