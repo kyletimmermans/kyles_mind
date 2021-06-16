@@ -13,6 +13,14 @@
  		Add up both variables. Remove what you need to place the opposite values into
  		the opposite variables. But keep in mind when you want to do the final subtraction,
 		we have already done one swap.
+		
+		*Pseudocode:
+		
+		a = a + b = ab
+		b = a(ab) - b = a
+		a = a(ab) - b(a) = b
+		
+		a = b, b =a
 */
 
 #include <iostream>
