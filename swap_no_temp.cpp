@@ -11,7 +11,8 @@
  		Summary:
 
  		Add up both variables. Remove what you need to place the opposite values into
- 		the opposite variables.
+ 		the opposite variables. But keep in mind when you want to do the final subtraction,
+		we have already done one swap.
 */
 
 #include <iostream>
