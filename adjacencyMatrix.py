@@ -13,7 +13,7 @@ adjacencyMatrix = [[0, 3, 4],   # Node 0
 		   [3, 0, 2],   # Node 1
 		   [4, 2, 0]]	# Node 2
 
-# E.g. Node 2 row can be read as:
+# E.g. Node 2's row can be read iteratively as:
 # Node 2 to Node 0 is 4, Node 2 to Node 1 is 2, Node 2 to Node 2 is 0
 
 # The graph below represents the adjacency matrix above
