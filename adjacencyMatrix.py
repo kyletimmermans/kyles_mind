@@ -10,19 +10,19 @@ Note: Values of 0 indicate no connection or connection to itself
 # Below is an example of an adjacency matrix data structure
 
 adjacencyMatrix = [[0, 3, 4],   # Node 0
-				   [3, 0, 2],   # Node 1
-				   [4, 2, 0]]	# Node 2
+		   [3, 0, 2],   # Node 1
+		   [4, 2, 0]]	# Node 2
 
 # The graph below represents the adjacency matrix above
 
 '''
 
-		1
+	    1
 	   / \
 	3 /   \ 2
 	 /     \
 	0-------2
-		4
+	    4
 
 '''
 
@@ -40,13 +40,13 @@ print(adjacecyMatrix[0][2])  # This will return 4
 '''
 Logic for getting edge weights or connections:
 Row Number (Source Node) --> Index (Destination Node) --> Value (Edge Weight Between Them)
-		|						|							| 		
-		|						|							|
-		|                       V							|
-		V			  0    1    2   						|
-        0          [  0,   3,   4  ]						|
-								^							|	
-        						|___________________________|
+     |		               |			    | 		
+     |		               |			    |
+     |                         V 			    |
+     V		     0    1    2   			    |
+     0            [  0,   3,   4  ]			    |
+			       ^			    |	
+        		       |____________________________|
 
 So if we want to see if there is a connection between node 1 and node 2,
 we check at row 1 if there is a non-zero number at index 2 which is node 2.
