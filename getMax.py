@@ -1,3 +1,7 @@
+'''
+Start max at Go through an array
+'''
+
 def getMax(arr):
 	max = 0  # Start off w/ max = 0, always will have items greater or equal to 0 (guaranteed new max value)
 	for i in arr:   # for each item in array
