@@ -18,20 +18,20 @@ For example:
 
 PDF Reader Page Numbers    |     Actual Book Numbers  
 _____________________________________________________
-						   |						  _
-			1			   |          Cover Art        |
-						   |						   |   
-			2			   |		  Title Page       |  Buffer Pages
-						   |						   |
-			3			   |			Index         _|
-						   |						   	
-			4			   |			  1
-						   |
-			5			   |			  2
-						   |			
-			6			   |	          3
-						   | 
-			7			   |              4
+			   |			      _
+           1	           |          Cover Art        |
+			   |			       |   
+           2		   |	      Title Page       |  Buffer Pages
+			   |			       |
+           3		   |		Index         _|
+			   |						   	
+	   4	           |		  1
+		           |
+	   5	           |		  2
+		           |			
+	   6	           |	          3
+		           | 
+	   7	           |              4
 
 
 So here we can see that the PDF reads out page 7 for the book
@@ -67,6 +67,6 @@ PDF Reader number = actual page number + # of buffer pages
 
 
 PDF Page Number = Buffer Pages + Actual Page Number
-				  - Buffer Page
+                - Buffer Page
 
 Subtract the Buffer Pages to get the Actual Page
