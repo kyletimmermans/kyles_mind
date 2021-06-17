@@ -1,0 +1,72 @@
+Sometimes when we have a PDF of a book or article that has its own page numbers,
+the page numbers of the PDF and the page numbers of the actual book sometimes will not match.
+
+How can this be? Shouldn't each page be 1-for-1 in terms of page numbers? They do
+contain the same number of pages.
+
+Here is why this can happen:
+
+A PDF will number each page from the beginning. No matter what sort of material
+lays on the first page or first several pages, it starts by labelling it as 'Page 1'.
+
+The issue comes into play when the actual book material starts with a page that it is not numbered or was not supposed to be numbered. This could be a title page, cover art, index, etc.
+
+The PDF has begun to alread number pages while the actual book has not, almost like the PDF reader has a head start.
+
+For example:
+
+
+PDF Reader Page Numbers    |     Actual Book Numbers  
+_____________________________________________________
+						   |						  _
+			1			   |          Cover Art        |
+						   |						   |   
+			2			   |		  Title Page       |  Buffer Pages
+						   |						   |
+			3			   |			Index         _|
+						   |						   	
+			4			   |			  1
+						   |
+			5			   |			  2
+						   |			
+			6			   |	          3
+						   | 
+			7			   |              4
+
+
+So here we can see that the PDF reads out page 7 for the book
+that reads page 4.
+
+It is the buffer pages in the beginning of the book that cause the book
+to count out slower and have smaller numbers while the PDF Reader counts from the
+get go and has higher numbers in comparison to the book. 
+
+Another example of this:
+
+One person starts counting and another person starts counting a minute after the
+first person starts. The first person will already be at higher numbers where as the 
+second person will have smaller numbers because they started later. 
+
+
+Equations:
+
+If we want to get the actual number of the book and we only have the PDF Reader page number,
+we need to take the number of buffer pages and subtract it from the PDF Reader.
+
+I.e. Catching up to the larger number
+
+actual page number = PDF Reader number - # of buffer pages in book.
+
+
+If we want to get the PDF Reader number but only have the actual book number,
+we need to add on the buffer pages to our current page number.
+
+I.e. Slow down to the smaller number
+
+PDF Reader number = actual page number + # of buffer pages
+
+
+PDF Page Number = Buffer Pages + Actual Page Number
+				  - Buffer Page
+
+Subtract the Buffer Pages to get the Actual Page
