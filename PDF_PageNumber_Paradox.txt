@@ -9,7 +9,8 @@ Here is why this can happen:
 A PDF will number each page from the beginning. No matter what sort of material
 lays on the first page or first several pages, it starts by labelling it as 'Page 1'.
 
-The issue comes into play when the actual book material starts with a page that it is not numbered or was not supposed to be numbered. This could be a title page, cover art, index, etc.
+The issue comes into play when the actual book material starts with a page that it is not numbered or was not supposed to be numbered. 
+This could be a title page, cover art, index, etc.
 
 The PDF has begun to alread number pages while the actual book has not, almost like the PDF reader has a head start.
 
