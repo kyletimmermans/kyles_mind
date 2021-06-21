@@ -18,7 +18,7 @@ If I take the people in "Followers" out of "Following",
 the only people left are the people that I follow, but don't
 follow me back
 
-  Followers               Following
+  Followers                Following
 
  [   Bot   ]              [ User #1 ]
  [ User #1 ]       	  [ User #2 ]
