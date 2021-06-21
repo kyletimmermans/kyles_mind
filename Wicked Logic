@@ -1,0 +1,40 @@
+Wicked.py Logic
+---------------
+
+Wicked is a program used to find the people that you follow,
+but don't follow you back.
+
+
+Example:
+
+Followers            Following
+    4				     5
+
+
+We must remove the bot followers or accounts that I will
+not follow back when considering the "true follower account".
+
+If I take the people in "Followers" out of "Following",
+the only people left are the people that I follow, but don't
+follow me back
+
+  Followers               Following
+
+ [   Bot   ]             [ User #1 ]
+ [ User #1 ]       		 [ User #2 ]
+ [ User #2 ]		     [ User #3 ]	
+ [ User #3 ]			 [ User #4 ]
+            			 [ User #5 ]
+
+
+We can take out User #1, #2, and #3 from "Following"
+because they exist in "Followers" so they follow me back
+and they are not the one's to worry about. It is User #4
+and User #5 who do not follow me back.
+
+Notice how I did not include the bot, as I will never truly
+be following everyone back that follows me. It may be tempting to
+just do Following - Followers to see the difference and use
+that raw number. but in reality, the actual equation is:
+
+Number of followers that don't follow back = Following - (Followers - Accts I don't follow back)
