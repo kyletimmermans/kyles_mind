@@ -1,0 +1,21 @@
+5:36 train delayed 8 mins to 5:44
+
+Old arrival time is 6:14, new arrival time is 6:22
+
+You move the start time later 8 minutes, the resulting minutes of the the train journey
+get bumped 8 mins each like a domino effect. Each minute from the start gets pushed up from
+its original position 8 mins.
+
+Time is a line of wooden blocks, put x extra blocks in and you must move the following
+bricks up that amount
+
+Visualization:
+
+5:36----------------6:14
+	 
+	 5:44----------------6:22
+
+
+
+Start---------------End
+  +8 +8 +8 +8 +8 +8 +8
