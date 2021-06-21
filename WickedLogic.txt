@@ -40,3 +40,8 @@ that raw number, but in reality, the actual equation is:
 Number of followers that don't follow back = Following - (Followers - Accts I don't follow back)
 
 *If they are in Following but not in Followers, they do not follow back
+*Why do we subtract from the "Following" column? Because that is where the people
+who don't follow us back are positioned. We need to chip away at the column to get 
+to the actual usernames by subtracting the bots from followers and then the actual
+followers out of following to give us all the people who we follow but are not
+following us.
