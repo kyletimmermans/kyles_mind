@@ -20,11 +20,11 @@ follow me back
 
   Followers               Following
 
- [   Bot   ]             [ User #1 ]
- [ User #1 ]       		 [ User #2 ]
- [ User #2 ]		     [ User #3 ]	
- [ User #3 ]			 [ User #4 ]
-            			 [ User #5 ]
+ [   Bot   ]          [ User #1 ]
+ [ User #1 ]       	   [ User #2 ]
+ [ User #2 ]		  [ User #3 ]	
+ [ User #3 ]		  [ User #4 ]
+            		  [ User #5 ]
 
 
 We can take out User #1, #2, and #3 from "Following"
