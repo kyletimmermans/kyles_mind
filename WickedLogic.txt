@@ -38,3 +38,5 @@ just do Following - Followers to see the difference and use
 that raw number. but in reality, the actual equation is:
 
 Number of followers that don't follow back = Following - (Followers - Accts I don't follow back)
+
+*If they are in Following but not in Followers, they do not follow back
