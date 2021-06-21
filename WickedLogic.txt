@@ -35,7 +35,7 @@ and User #5 who do not follow me back.
 Notice how I did not include the bot, as I will never truly
 be following everyone back that follows me. It may be tempting to
 just do Following - Followers to see the difference and use
-that raw number. but in reality, the actual equation is:
+that raw number, but in reality, the actual equation is:
 
 Number of followers that don't follow back = Following - (Followers - Accts I don't follow back)
 
