@@ -21,7 +21,7 @@ follow me back
   Followers               Following
 
  [   Bot   ]              [ User #1 ]
- [ User #1 ]       	   [ User #2 ]
+ [ User #1 ]       	  [ User #2 ]
  [ User #2 ]		  [ User #3 ]	
  [ User #3 ]		  [ User #4 ]
             		  [ User #5 ]
