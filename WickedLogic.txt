@@ -45,3 +45,5 @@ who don't follow us back are positioned. We need to chip away at the column to g
 to the actual usernames by subtracting the bots from followers and then the actual
 followers out of following to give us all the people who we follow but are not
 following us.
+*We can not subtract all the followers from following, e.g. the bot, because
+this does not exist in following, thus we can not chip it away from following
