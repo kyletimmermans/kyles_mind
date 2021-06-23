@@ -50,3 +50,8 @@ this does not exist in following, thus we can not chip it away from following.
 I.e. We do not follow back bots or certain people back so they can not be in following, 
 and if they're not in following, we don't worry about them, as we're only concerned
 with a select few in the following list.
+
+** We only want to remove the people in following that also exist in followers,
+therefore they must be in the following list and in the followers list. People I don't
+follow back (bots), will not be in the following list, because I don't follow them.
+The resulting list will have all the following - the right amount of followers.
