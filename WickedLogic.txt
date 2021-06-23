@@ -46,4 +46,7 @@ to the actual usernames by subtracting the bots from followers and then the actu
 followers out of following to give us all the people who we follow but are not
 following us.
 *We can not subtract all the followers from following, e.g. the bot, because
-this does not exist in following, thus we can not chip it away from following
+this does not exist in following, thus we can not chip it away from following.
+I.e. We do not follow back bots or certain people back so they can not be in following, 
+and if they're not in following, we don't worry about them, as we're only concerned
+with a select few in the following list.
