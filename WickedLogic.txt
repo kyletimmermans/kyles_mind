@@ -55,3 +55,7 @@ with a select few in the following list.
 therefore they must be in the following list and in the followers list. People I don't
 follow back (bots), will not be in the following list, because I don't follow them.
 The resulting list will have all the following - the right amount of followers.
+
+** People who follow me but I don't follow back are neither duplicates found in following
+and followers to be removed from following, nor are they people I follow who don't follow me back
+(found in following)
