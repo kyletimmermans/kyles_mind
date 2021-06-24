@@ -63,3 +63,7 @@ and followers to be removed from following, nor are they people I follow who don
 E.g. Removing an apple from a grouple of oranges and bannanas is impossible
 because the group of oranges and bananas has no apple to beging with. We can
 however, remove all the oranges and just be left with the bananas.
+
+** I am looking for people who I follow and follow me back, so I can take them out
+of the final list. I do not follow the bots but they follow me back. Thus,
+the bots only meet 1 of 2 conditions and cannot be removed from the following list.
