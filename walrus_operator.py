@@ -1,4 +1,5 @@
 # Walrus Operator - Assign and check variable condition on the same line
+
 import os
 
 if cwd := (os.getcwd()) != "/var/log":
@@ -12,9 +13,9 @@ if cwd != "/var/log":
 
 
 '''
-Walrus operator combines two lines together
+Walrus operator combines two lines together.
 Think of it like moving the assignment up one line
-and the condition stays on the same line
+and the condition stays on the same line.
 '''
 
 # Watch out for the mistake of assgining the condition to the variable
@@ -35,4 +36,3 @@ a boolean.
 x = 4    vs    x = (4 == 4)
  int               bool
 '''
-
