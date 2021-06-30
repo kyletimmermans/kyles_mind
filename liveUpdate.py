@@ -17,9 +17,10 @@ with open('test.txt', 'r') as f:
 E.g.
 
 test.txt:
-1
-2
-3
+1  <-- Pass
+2  <-- Pass
+3. <-- Pass
+   <-- Start Reading New Input
 
 1. We run liveUpdate.py
 2. The program opens the file and goes to the last line
