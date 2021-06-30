@@ -27,4 +27,6 @@ test.txt:
 3. The program is waiting for new input to be added to the end of the file
 4. We edit 'test.txt' and add a '4' to the the next line
 5. The program sees the new addition and prints the '4'
+
+* Start listening after all the passes
 '''
