@@ -1,0 +1,19 @@
+For every list of items that is separated by commas, there will be 
+will always be n - 1 number of commas, with n being the number of items.
+
+This is due to the fact that each item in a list will have a comma, besides
+the last item, because there are no items left after the final item, so there
+is no need for a comma at the end.
+
+Every item = n
+Besides the last one = -1
+
+
+
+E.g.
+
+[fruits, vegetables, bread]
+
+3 items, but the last one does not
+take a comma because there are no mroe
+items after the last one, so 3 - 1 = 2 commas
