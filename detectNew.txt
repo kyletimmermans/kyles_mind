@@ -30,21 +30,21 @@ The final cool comes in, it's not the same as it's prior value, so it's a new va
 
 
 E.g. 1
- 					hey (old)
-					 / 	
-				    / 
+ 		      hey (old)
+		     / 	
+		    / 
 No Change - The Same
-					\
-					 \
-					hey (new)
+		    \
+		     \
+		      hey (new)
 
-							   hey (old)
-							   / 	
-						      / 
+				hey (old)
+			       / 	
+			      / 
 There is Change - A Difference
-							  \
-							   \
-							   cool (new)
+			      \
+			       \
+				cool (new)
 
 E.g. 2
 
