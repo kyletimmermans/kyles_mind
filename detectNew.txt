@@ -48,8 +48,9 @@ There is Change - A Difference
 
 E.g. 2
 
-Blue -> Blue
-Blue -> Green
+[ old ]  [ new ]
+ Blue  ->  Blue
+ Blue  ->  Green
 
 Blue to blue is the same
 Blue to Green is a change, they are different
