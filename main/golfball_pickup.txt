@@ -1,0 +1,34 @@
+When picking up golfballs at the range, it is better to pickup two at a time instead of one.
+Bend down, get one, bend down, get one.
+Or
+Bend down, get two, bend down, get two.
+
+You cut down the amount of times you bend down by half.
+
+When picking up 2 at a time, you are merging the second half you
+would be getting with 1 at a time, with the first half.
+
+    1st Half       |       2nd Half
+        
+o   o   o   o   o  |  o   o   o   o   o
++1  +1  +1  +1  +1   |               |
+ ^              ^    |               |
+ |              |____|               | 
+ |                                   |
+ |___________________________________|
+ 
+ 
+ Now there is just one half that we need to pickup when 
+ we grab 2 at a time:
+ 
+ o o o o o
+ o o o o o
+ 
+ We merged the second half into the first half so we cut the amount the amount of times
+ we need to bend down by 2 because the other half we needed to bend down for is gone.
+ 
+ With this strategy, the algorithm is to just take the number of golfballs you need to pickup
+ and divide by 2, as each ball will be paired with another, removing half and keeping the first half's
+ number.
+ 
+ Divide golf ball number by 2, keep the first half of balls as the final number.

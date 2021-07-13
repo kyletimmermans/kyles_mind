@@ -1,0 +1,22 @@
+How would calculate the age of your parents when you were born?
+
+They concieved you "your current age" years ago, they had you at 0 and now you are "your current age"
+
+Take your parents' current age, they had you x years ago, take their age into the past with you x years ago
+
+They are 50
+
+You are 20
+
+THey had you 20 years ago, now they are 50 so we take them back 20 years
+
+50 - 20 = 30
+
+They were 30 years old when you were born
+
+Diagram:
+
+	30 years old when you were born
+		     | 
+ 0 [:::::::::::::::::::::::::::::::::] 50
+                   0 [:::::::::::::::] 20

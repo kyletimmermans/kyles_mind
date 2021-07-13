@@ -1,0 +1,56 @@
+Imagine a live stream of data coming in:
+
+hey
+hey
+hey
+cool
+
+
+We want to keep getting new updates, if the update is the same as the old one,
+it is not new, and we don't want it. If it is different from the old, there must
+have been a change, therefore it is a new individual data piece.
+
+The first hey comes in first, its has nothing to be compared prior, so it's a new value, it comes
+through.
+
+The second hey comes in, but it's the same as it's prior value so it is a duplicate, we don't let it
+through.
+
+The third hey comes in, but it's the same as it's prior value so it is a duplicate, we don't let it
+through.
+
+The final cool comes in, it's not the same as it's prior value, so it's a new value, it comes throug
+
+
+-If new is the same as the old, there is no change, it is not truly new
+-If the new is not the same as the old, there is a change because they became different, it is truly new
+
+-If the new is the same as the old, it is a duplicate
+-If the new is not the same as the old, something changed, so it is not a duplicate
+
+
+E.g. 1
+ 		      hey (old)
+		     / 	
+		    / 
+No Change - The Same
+		    \
+		     \
+		      hey (new)
+
+				hey (old)
+			       / 	
+			      / 
+There is Change - A Difference
+			      \
+			       \
+				cool (new)
+
+E.g. 2
+
+[ old ]  [ new ]
+ Blue  ->  Blue
+ Blue  ->  Green
+
+Blue to blue is the same
+Blue to Green is a change, they are different

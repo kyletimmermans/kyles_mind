@@ -1,0 +1,69 @@
+Wicked.py Logic
+---------------
+
+Wicked is a program used to find the people that you follow,
+but don't follow you back.
+
+
+Example:
+
+Followers            Following
+    4			 5
+
+
+We must remove the bot followers or accounts that I will
+not follow back when considering the "true follower account".
+
+If I take the people in "Followers" out of "Following",
+the only people left are the people that I follow, but don't
+follow me back
+
+  Followers                Following
+
+ [   Bot   ]              [ User #1 ]
+ [ User #1 ]       	  [ User #2 ]
+ [ User #2 ]		  [ User #3 ]	
+ [ User #3 ]		  [ User #4 ]
+            		  [ User #5 ]
+
+
+We can take out User #1, #2, and #3 from "Following"
+because they exist in "Followers" so they follow me back
+and they are not the one's to worry about. It is User #4
+and User #5 who do not follow me back.
+
+Notice how I did not include the bot, as I will never truly
+be following everyone back that follows me. It may be tempting to
+just do Following - Followers to see the difference and use
+that raw number, but in reality, the actual equation is:
+
+Number of followers that don't follow back = Following - (Followers - Accts I don't follow back)
+
+*If they are in Following but not in Followers, they do not follow back
+*Why do we subtract from the "Following" column? Because that is where the people
+who don't follow us back are positioned. We need to chip away at the column to get 
+to the actual usernames by subtracting the bots from followers and then the actual
+followers out of following to give us all the people who we follow but are not
+following us.
+*We can not subtract all the followers from following, e.g. the bot, because
+this does not exist in following, thus we can not chip it away from following.
+I.e. We do not follow back bots or certain people back so they can not be in following, 
+and if they're not in following, we don't worry about them, as we're only concerned
+with a select few in the following list.
+
+** We only want to remove the people in following that also exist in followers,
+therefore they must be in the following list and in the followers list. People I don't
+follow back (bots), will not be in the following list, because I don't follow them.
+The resulting list will have all the following - the right amount of followers.
+
+** People who follow me but I don't follow back are neither duplicates found in following
+and followers to be removed from following, nor are they people I follow who don't follow me back
+(found in following)
+
+E.g. Removing an apple from a grouple of oranges and bannanas is impossible
+because the group of oranges and bananas has no apple to beging with. We can
+however, remove all the oranges and just be left with the bananas.
+
+** I am looking for people who I follow and follow me back, so I can take them out
+of the final list. I do not follow the bots but they follow me back. Thus,
+the bots only meet 1 of 2 conditions and cannot be removed from the following list.
