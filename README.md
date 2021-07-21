@@ -1,7 +1,7 @@
 # <div align="center">Kyle's Mind</div>
 Little solves and thinking stuffs
 
-[ ] Formats available
+- [ ] Formats available
   - [x] Transaction field validation/sanitization - Check length and if num / letter
   - [x] Analytics - Counter, thread to continually get highest counter
   - [x] Properties - Hardcode
