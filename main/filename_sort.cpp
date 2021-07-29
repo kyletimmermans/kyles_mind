@@ -38,9 +38,11 @@ int main()
 	if (str1.length() > str2.length()) {
 		cout << str2 << endl;
 		cout << str1 << endl;
+		return 0;  // Finished
 	} else if (str1.length() < str2.length()) {
 		cout << str2 << endl;
 		cout << str1 << endl;
+		return 0;  // Finished
 	}
 
 
@@ -50,9 +52,11 @@ int main()
 		if (int(str1[i]) < int(str2[j])) {   // If str1 char is less, it goes first 
 			cout << str1 << endl;
 			cout << str2 << endl;
+			return 0;  // Finished
 		} else if (int(str2[j]) < int(str1[i])) {  // If str2 char is less, it goes first
 			cout << str2 << endl;
 			cout << str1 << endl;
+			return 0;  // Finished
 		}
 	}     // If it's the same char, go to next position in both strings
 
