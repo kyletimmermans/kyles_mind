@@ -1,0 +1,47 @@
+Let's say you have database that keeps having data appended to it.
+And you have a script that needs to continually read the newest
+rows and print them. So we run it as a cron job every minute.
+
+However, we can't keep reading from the top of the file
+and print out all the rows. We need the program to remember
+where we left off, sort of like a checkpoint, so we can start
+from there when the script runs again.
+
+The solution: Have a script that iterates through the next
+50 rows after the checkpoint row. We pull and write to a checkpoint
+file such as checkpoint.dat.
+
+We read the checkpoint from checkpoint.dat, get the next 50 rows from
+that checkpoint, and then the last row we read from that 50, we write
+to checkpoint.dat, as that is the last row we exited on.
+
+When the script first runs, there will be nothing in checkpoint.dat
+because it hasn't read anything yet. So on the first run of the script,
+it should just run from the very first row of the database, and the last
+row will be the first checkpoint written into checkpoint.dat
+
+Also, it might be the case that the database already exists and is already
+ready filled with hundreds of rows we don't care about. And that we just
+want to start from the end of the database where the most recent rows are
+added to. So instead of the first run of the script running from the very
+first row (oldest row), we start it at the last row (newest row), and then
+work from there onward.
+
+
+
+Example of this process:
+
+
+example.db
+__________
+
+A1 ---> Start
+B1	  |
+C1	  |
+D1 ---> Stop, Save D1 to checkpoint.dat, Wait 1 min, Load D1 from checkpoint.dat, continue from there	  
+E1	  | 
+F1	  |
+G1 --->	Stop, Save G1 to checkpoint.dat, Wait 1 min, Load G1 from checkpoint.dat, continue from there
+H1    |
+I1	  |	
+J1 ---> Stop, Save J1 to checkpoint.dat, Wait 1 min, Load J1 from checkpoint.dat, continue from there
