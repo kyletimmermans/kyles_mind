@@ -5,6 +5,8 @@
 
 	For instance, A.pdf would come before B.pdf
 	because 'A' has a smaller ASCII number than 'B'.
+	
+	*Smaller numbered ASCII characters come first
 
 	
 	However, if the files start with the same character:
