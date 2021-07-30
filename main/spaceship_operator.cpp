@@ -21,6 +21,8 @@ int main()
 			-If a < b, the result is:    ans < 0
 			-If a > b, the result is:    ans > 0
 			-If a == b, the results is:  ans == 0
+		
+		* Pivots around 0
 	*/
 
 	if (ans < 0)
