@@ -7,7 +7,7 @@ if cwd := (os.getcwd()) != "/var/log":
 
 # Is the same as
 
-cwd = (os.getcwd()
+cwd = os.getcwd()
 if cwd != "/var/log":
 	print("Current dir is not /var/log")
 
