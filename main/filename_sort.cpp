@@ -30,11 +30,12 @@ int main()
 	string str1 = "hellworld7.pdf";
 	string str2 = "hellworld4.pdf";
 
-
-	// If one filename length is greater than another, 
-	// it takes up more char positions, thus, 
-	// it goes after the smaller ones, because
-	// the comparisons can keep going for the longer filename strings
+	/*
+	   If one filename length is greater than another, 
+	   it takes up more char positions, thus, 
+	   it goes after the smaller ones, because
+	   the comparisons can keep going for the longer filename strings
+	*/
 	if (str1.length() > str2.length()) {
 		cout << str2 << endl;
 		cout << str1 << endl;
@@ -46,8 +47,17 @@ int main()
 	}
 
 
-	// Increment through both filename strings and keep comparing the
-	// chars that are in the same positions in both strings
+	/*
+	   Increment through both filename strings and keep comparing the
+	   chars that are in the same positions in both strings
+	    
+	    |		      |			  |	
+	    v		      v		          v	
+	   [h]w7  h == h    h[w]7   w == w     hw[7]   4 < 7
+	   [h]w4	    h[w]4	       hw[4]
+	    ^		      ^ 		  ^			
+	    |	              |			  |		
+	*/
 	for (int i = 0, j = 0; (i < str1.length() || j < str2.length()); ++i, ++j) {
 		if (int(str1[i]) < int(str2[j])) {   // If str1 char is less, it goes first 
 			cout << str1 << endl;
