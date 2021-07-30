@@ -55,7 +55,8 @@ int main()
 	   Increment through both filename strings and keep comparing the
 	   chars that are in the same positions in both strings
 	   
-	   Keep going until we have a difference to split them apart
+	   *Keep going until we have a difference to split them apart and
+	   know they will have different positions in the folder.
 	    
 	    |		      |			  |	
 	    v		      v		          v	
