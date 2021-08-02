@@ -14,6 +14,7 @@ int main()
 			
 			* When no '=' in condition, target cannot be > than itself or < itself
 				-For loop stops on falses here
+			* When there is a '=' in the condition, for-loop stops at true for reaching target
 
 
 					    -
