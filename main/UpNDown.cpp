@@ -13,6 +13,7 @@ int main()
 		and conditions with '=' (<= or >=) means up to and on top of target.
 			
 			* When no '=' in condition, target cannot be > than itself or < itself
+				-For loop stops on falses here
 
 
 					    -
