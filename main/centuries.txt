@@ -1,0 +1,37 @@
+Century numbering works sort of like arrays.
+
+The numbering of centuries starts with the 0-99
+years so everything is pushed down 1, just like
+array indexing because arrays start at 0.
+
+Centuries start from the 1st century but
+the first century is the years 0-99
+
+1st Century     2nd Century     3rd Century   
+   0-99			  100-199		  200-299      ....
+
+
+
+Not:
+
+1 2 3
+1 2 3 ...
+
+It is:
+
+1 2 3
+0 1 2
+
+
+Therefore,
+	-The 14th century is the 1300s
+	-The 19th century is the 1800s
+	-The 20th century is the 1900s
+	-The 21st century is the 2000s
+
+
+Equations:
+
+Century name is [xx]00s with xx+1
+
+Century number is [xx]00s with xx-1
