@@ -1,0 +1,74 @@
+Let's say you want to put a sign up in your window
+that people outside could read.
+
+You can't put it in the window so you can read it while
+inside, it will look backwards to the people outside.
+
+That's because their point of view is opposite of yours.
+So if we read English left to right, you have to swap sides 
+and write it right to left. And since it's opposite for them, 
+they'll be able to read it left to right.
+
+
+	  	 						  Window
+        							V
+
+									|
+									|S
+           Outside					|u	  			  Inside
+  Reads right to left as Sup?		|p      Reads left to right as ?puS
+									|?
+									|	
+
+
+What about languages that are read right to left e.g. Arabic?
+
+The same principle applies, the people outside have
+a different point of view, so we need to write left to right,
+so that their inverted view gets the word going from right to left.
+
+
+	  	 						  Window
+        							V
+
+        							|
+									|!
+									|م
+           Outside					|ا	  			  Inside
+ Read as !مالس from right to left	|ل    Read as سلام! from right to left
+									|س     
+									|
+
+
+
+Perspectives:
+
+
+	  	 						  Window
+        							V
+
+        			L				|              R
+					  				|		
+									|			   
+       Outside POV >				|		  	   < Inside POV						
+			   						|			  
+			   	  					|		   	 
+			   		R				|			   L	 
+			   						|
+			   									
+			   						^
+			   	 * It helps to imagine both sides when
+			   	  you're in a third person perspective
+			      such as being on the side / inside of the 
+			      wall and being on both sides at once
+
+
+Criss-Cross to get the other
+perspectives left and right:
+
+	L    R	      
+	 \  /
+	  \/
+	  /\
+	 /  \
+	R    L
