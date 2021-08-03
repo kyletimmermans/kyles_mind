@@ -10,15 +10,15 @@ and write it right to left. And since it's opposite for them,
 they'll be able to read it left to right.
 
 
-	  	 						  Window
-        							V
+	  	 		      Window
+        				V
 
-									|
-									|S
-           Outside					|u	  			  Inside
+					|
+					|S
+           Outside			|u	  	   Inside
   Reads right to left as Sup?		|p      Reads left to right as ?puS
-									|?
-									|	
+					|?
+					|	
 
 
 What about languages that are read right to left e.g. Arabic?
@@ -28,39 +28,39 @@ a different point of view, so we need to write left to right,
 so that their inverted view gets the word going from right to left.
 
 
-	  	 						  Window
-        							V
+	  	 		      Window
+        				V
 
-        							|
-									|!
-									|م
-           Outside					|ا	  			  Inside
+        				|
+					|!
+					|م
+           Outside			|ا	  	   Inside
  Read as !مالس from right to left	|ل    Read as سلام! from right to left
-									|س     
-									|
+					|س     
+					|
 
 
 
 Perspectives:
 
 
-	  	 						  Window
-        							V
+	  	 			      Window
+        					V
 
-        			L				|              R
-					  				|		
-									|			   
+        	   L				|                         R
+					  	|		
+						|			   
        Outside POV >				|		  	   < Inside POV						
-			   						|			  
-			   	  					|		   	 
-			   		R				|			   L	 
-			   						|
+			   			|			  
+			   	  		|		   	 
+		   R				|			   L	 
+			   			|
 			   									
-			   						^
+			   			^
 			   	 * It helps to imagine both sides when
 			   	  you're in a third person perspective
-			      such as being on the side / inside of the 
-			      wall and being on both sides at once
+			        such as being on the side / inside of the 
+			         wall and being on both sides at once
 
 
 Criss-Cross to get the other
