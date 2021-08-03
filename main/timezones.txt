@@ -1,0 +1,28 @@
+Timezones
+
+While we wait for the sun to come from
+one to place to another, East to West,
+the time still passes by in the first
+place.
+
+Thus, the time in the East will be later
+than in the West because the Sun is closer
+to the West now and it is more day while the
+Sun is farther from the East and is more night.
+
+
+Sun moving East to West:
+
+-Place 1 is two hours ahead of Place 2
+
+
+		  		 1 hr 1 hr
+(Place 2 - West) <--- <--- (Place 1 - East)
+									|
+									|  1 hr
+									V
+
+									|
+									| 1 hr
+									V
+									
