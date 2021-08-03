@@ -1,7 +1,7 @@
 /*
 	Reverse the first half of a Stack in C++
 
-	Stack - FILO - First in, Last out (Like dropping things in to a vertical tube)
+	Stack: FILO - First in, Last out (Like dropping things into a vertical tube)
 */
 
 #include <iostream>
