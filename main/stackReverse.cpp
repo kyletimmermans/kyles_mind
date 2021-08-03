@@ -11,7 +11,7 @@ using namespace std;
 
 stack<int> stackHalfReverse(stack<int> aStack) {
 	int stackHalfSize = aStack.size() / 2;  // Declare stack half now, bc it changes a lot below,
-											// Don't want stack size to change while we're on it
+						// Don't want stack size to change while we're on it
 
 	int tempArray[stackHalfSize]; // Hold the first half of stack
 
