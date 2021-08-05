@@ -9,6 +9,10 @@
         If the 3 values before and up to the current value all
         match, we have 4 values that are all the same and right next
         to each other, thus we have 4 consecutive numbers that are the same.
+        
+        The -1, -2, -3 ... and so on checks that the positions are right next to
+        each other, and the '==' checks that they are the same number
+                -[] position and == makes sure we have consecutiveness
 */                      
 
 #include <iostream>
