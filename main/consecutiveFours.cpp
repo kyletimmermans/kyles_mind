@@ -1,6 +1,6 @@
 /*
         Find four consecutive values in a list
-
+               -Consecutive = All connected and all equal
         E.g. 123477779
 
         1  2  3  4    7        7        7       7    9
