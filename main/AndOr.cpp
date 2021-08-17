@@ -15,7 +15,7 @@ int main()
 
 	// && operator needs everything to be true, this will not run
 	if (var1 && var2 && var3 && var4 && var5) {
-    	cout << "&&" << endl;
+    		cout << "&&" << endl;
 	}
 
 
