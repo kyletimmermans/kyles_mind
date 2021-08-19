@@ -31,7 +31,7 @@ int main()
 
 
 	/*
-		i(0) ++     myStack.size(3) --
+		i(0) ++         myStack.size(3) --
 		i(1)		myStack.size(2)
 
 		1 < 2 and that is the end condition,
