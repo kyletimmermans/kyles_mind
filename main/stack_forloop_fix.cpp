@@ -24,7 +24,7 @@ int main()
 
 	stack<int> myStack;    //  10 - Top of stack
 	myStack.push(40);      //  20
-	myStack.push(30);	   //  30
+	myStack.push(30);      //  30
 	myStack.push(20);      //  40 - Bottom of stack
 	myStack.push(10);
 
@@ -36,6 +36,8 @@ int main()
 
 		1 < 2 and that is the end condition,
 		ending the for loop prematurely
+		
+		*A static number would not go down when pop() runs
 	*/
 	for (int i = 0; i < myStack.size(); ++i) {		
 		myStack.pop();
