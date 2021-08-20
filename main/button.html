@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#myWindow {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 50px auto;
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<div id="myWindow"></div>
+
+<div class="center">
+	<button onclick="buttonFunc()">Open / Close</button>
+</div>
+ 
+<script>
+
+	/*
+		Button starts state as closed because we just opened the program.
+		On clicking we open the window, and set the state to open. So when
+		we click again, we know the state is open, so we close the window,
+		and set the state to closed. Now we know when we click again, the state
+		was closed, so we need to open.
+
+		*It is a cycle of opening and closing, and using the state to keep
+		track of what we need to do next, if it was closed before, open it.
+		If it was open before, close it.
+	*/
+
+	/* Start button logic */
+
+	var state = "closed";  	// Keeps track of window close/open state
+							// Start as closed because it has not been clicked / opened yet
+	function buttonFunc() {
+		var window = document.getElementById("myWindow");  // Has to be in function scope
+
+		if (state == "closed") {  // If window closed, open it
+			window.style.display = "block"; // Open the window
+			state = "open";  // update state so we know it's been opened
+		} else if (state == "open") {  // If window opened, close it
+			window.style.display = "none";  // Close the window
+			state = "closed";  // Update state so we know it's been closed
+		}
+
+		console.log(state);  // Show state
+	}
+
+</script>
+
+
+</body>
+</html>
