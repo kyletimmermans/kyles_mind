@@ -15,8 +15,8 @@ we have the whole substring.
 E.g. If we want the substring "Kyle"
 
 
-						Journey
-	                      +3
+		         Journey
+	                   +3
                           ---
 "Hello World, my name is Kyle and I like to program!"
  -------------------------
