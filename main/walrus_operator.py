@@ -14,8 +14,15 @@ if cwd != "/var/log":
 
 '''
 Walrus operator combines two lines together.
-Think of it like moving the assignment up one line
+Think of it like moving the assignment down one line
 and the condition stays on the same line.
+
+	
+Assign variable and check it's condition on one line
+			   	
+	  Assign Variable   Check Condition
+   -------------------- --------------   	
+if cwd := (os.getcwd()) != "/var/log":
 '''
 
 # Watch out for the mistake of assgining the condition to the variable
