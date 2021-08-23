@@ -20,8 +20,8 @@ and the condition stays on the same line.
 	
 Assign variable and check it's condition on one line
 			   	
-	  Assign Variable   Check Condition
-   -------------------- --------------   	
+      Assign Variable   Check Condition
+   -------------------- ---------------   	
 if cwd := (os.getcwd()) != "/var/log":
 '''
 
