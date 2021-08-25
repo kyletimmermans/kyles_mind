@@ -16,6 +16,7 @@ Sun is farther from the East and is more night.
   reach location 2, location 1's time has gotten
   that much later.
 
+
 Sun moving East to West:
 
 -Place 1 is two hours ahead of Place 2
