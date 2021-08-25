@@ -21,16 +21,16 @@ Sun moving East to West:
 -Place 1 is two hours ahead of Place 2
 
 
-		  		 1 hr 1 hr
+		 1 hr 1 hr
 (Place 2 - West) <--- <--- (Place 1 - East)
-									|
-									|  1 hr
-									V
+				   |
+				   |  1 hr
+				   V
 
-									|
-									| 1 hr
-									V
-									
+				   |
+				   |  1 hr
+				   V
+
 									
 								
 								
