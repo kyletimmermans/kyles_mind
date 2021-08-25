@@ -14,7 +14,8 @@ Sun is farther from the East and is more night.
 * As the sun moves from location 1 to location 2,
   the time it takes for the time of location 1 to
   reach location 2, location 1's time has gotten
-  that much later.
+  that much later. As the sun moves West, the
+  time in the East is also getting later.
 
 
 Sun moving East to West:
