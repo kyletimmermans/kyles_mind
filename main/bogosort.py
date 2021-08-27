@@ -23,9 +23,9 @@ sortedList = sorted(myList)
 '''
 while (sortedList != myList):
 	myList = [random.randint(0, 10), random.randint(0, 10), random.randint(0, 10),
-			  random.randint(0, 10), random.randint(0, 10), random.randint(0, 10),
-			  random.randint(0, 10), random.randint(0, 10), random.randint(0, 10),
-			  random.randint(0, 10)]
+		  random.randint(0, 10), random.randint(0, 10), random.randint(0, 10),
+		  random.randint(0, 10), random.randint(0, 10), random.randint(0, 10),
+		  random.randint(0, 10)]
 	print(myList)
 
 # On success
