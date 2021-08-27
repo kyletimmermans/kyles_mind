@@ -16,6 +16,8 @@ sortedList = sorted(myList)
 
 -If it's not equal to it's sorted self, it's not sorted
 
+-Is this all the same elements, but sorted?
+
 *Take what it's supposed to be, if it's not
  what it's supposed to be, keep going
 '''
