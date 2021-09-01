@@ -1,7 +1,12 @@
 '''
-Bogosort - Generate random numbers until it's sorted
+Bogosort - Generate random permutations until it's sorted
 
 Worst case: Infinity
+
+Analogy:
+Sort a deck of cards by throwing the deck into the air, 
+picking the cards up at random, and repeating the process
+until the deck is sorted
 '''
 
 import random
