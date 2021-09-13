@@ -56,7 +56,7 @@ int main(int argc, char **argv)
          ---> condition3==true --> leap year
          
         
-        * condition 1 and 2 or just condition 3
+        * condition 1 and 2 or just condition 3 (1 && 2) || 3
          
         * E.g. Blue and yellow makes green
           Also just green makes green
