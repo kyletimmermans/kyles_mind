@@ -24,6 +24,9 @@ int main(int argc, char **argv)
    } else {  // Fits no criteria
       printf("%s was not a leap year\n", argv[1]);
    }
+   
+   // *E.g. Blue and yellow makes green
+   //       Also just green makes green
 
    // Terminate program successfully
    return 0;
