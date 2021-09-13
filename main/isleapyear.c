@@ -29,6 +29,16 @@ int main(int argc, char **argv)
    
    
    /*
+      Can also be written as a one-liner:
+      
+      if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+         leap year
+      else
+         not leap year
+   */
+   
+   
+   /*
         Explanation of if-statement flow:
         
         1. If condition1 && condition2 are both true, then leap year
