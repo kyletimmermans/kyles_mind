@@ -1,0 +1,25 @@
+System 1:
+6 is highest priority and 1 is lowest priority
+
+6 5 4 3 2 1
+
+System 2:
+1 is highest priority and 6 is lowest priority
+
+1 2 3 4 5 6
+
+
+System 1 --> System 2
+
+6 --> 1
+5 --> 2
+4 --> 3
+3 --> 4
+2 --> 5
+1 --> 6
+
+The highest priority was 6 now it's 1, the lowest priority was 1 and now it's 6
+We can map out the old highest to the new highest, the old lowest to the new
+lowest and then do the rest.
+
+* Essentially just reversing the order of the first
