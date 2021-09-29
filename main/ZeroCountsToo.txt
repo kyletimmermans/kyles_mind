@@ -1,0 +1,25 @@
+When determining the maximum value a number on a computer
+can have, we need to consider that 0 is a number that this
+number can take the value of.
+
+For instance, an 8-bit integer has 256 different values.
+But, it's maximum value is only 255. That's because we don't
+start from 1, but rather from 0. Because of this, everything
+shifts down 1, including the maximum.
+
+* 0 is counted as 1 number, that is one less slot
+  that the maximum could be.
+
+* Take off from the end and add to the beginning
+  	- Imagine 1-256, we take 1 off from 256 so we can
+  	  start from 0, now it's 0-255
+
+
+	256
+ 	 |
+    / \
+   /   \
+  /		\
+ 0     1-255
+ |		 |
+ 1  +   255 = 256 different numbers
