@@ -17,9 +17,9 @@ shifts down 1, including the maximum.
 
 	256
  	 |
-    / \
-   /   \
-  /		\
- 0     1-255
- |		 |
- 1  +   255 = 256 different numbers
+    	/ \
+       /   \
+      /	    \
+     0     1-255
+     |       |
+     1  +   255 = 256 different numbers
