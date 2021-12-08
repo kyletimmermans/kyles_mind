@@ -21,3 +21,4 @@
 
 
 (32..39) | % {$ip='10.10.0.'+$_;(75..85) | % {$port='80'+$_;$conn = New-Object -TypeName System.Net.Sockets.TcpClient;$set = $conn.BeginConnect($ip,$port,$null,$null);$response = $set.AsyncWaitHandle.WaitOne(500,$false); if ($response) {$conn.Close();echo $ip":"$port" is open!"}}} 2>$null
+
