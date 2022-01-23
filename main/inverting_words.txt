@@ -47,7 +47,7 @@ Perspectives:
 	  	 			      Window
         					V
 
-        	   L				|                         R
+        	   L				|                          R
 					  	|		
 						|			   
        Outside POV >				|		  	   < Inside POV						
@@ -61,6 +61,30 @@ Perspectives:
 			   	  you're in a third person perspective
 			        such as being on the side / inside of the 
 			         wall and being on both sides at once
+
+
+
+We can imagine our perspective being at either end of the window:
+*Keep in mind this a top down perspective of the window
+						
+		 
+		   We can imagine the perspective being on this end of the window	
+						V
+						
+        	   L				|                          R
+					  	|		
+						|			   
+       Outside POV >				|		  	   < Inside POV						
+			   			|			  
+			   	  		|		   	 
+		   R				|			   L	 
+			   			|
+			   									
+			   			^
+		  Or we can imagine the perspective being at this end of the window
+
+
+
 
 
 Criss-Cross to get the other
