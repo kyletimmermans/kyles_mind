@@ -25,7 +25,7 @@
 	"Not", implies false in the English language e.g. "Not something"
 	which makes !var good to use because we read it in English as "Not something"
 	making it "false" in a language / semantics kind of way. But at the same time,
-	the code also puts false's in the true section (first block of if-statement.
+	the code also puts false's in the true section (first block of if-statement).
 	Thus, the !var style makes sense when we read it, and also works with the code
 	by making false's run, instead of true's, when we need them to.
 	
