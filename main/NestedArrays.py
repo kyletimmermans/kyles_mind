@@ -7,7 +7,7 @@ in turn gets us another value.
 
 The inner array will act as the index for the next outer array.
 
-Index --> Value --> Index --> Value
+Value <-- Index <-- Value <-- Index
 
 We evaluate from right to left by simplifying the inner-most array
 to the outer-most array.
@@ -20,9 +20,9 @@ items = ['$', '&', '!', '@']
 #Index:   0    1    2    3
 
 print(items[choices[0]])
-# 0 --> 3 --> 3 --> @
+# @ <-- 3 <-- 3 <-- 0
 print(items[choices[1]])
-# 1 --> 2 --> 2 --> !
+# ! <-- 2 <-- 2 <-- 1
 
 '''
 Output:
