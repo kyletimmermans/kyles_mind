@@ -1,6 +1,6 @@
 #!/bin/usr/env python3
 
-# Map letters with closest frequency numbers
+# Map letters together in pairs that have the closest frequency numbers
 
 frequency_list_one = {'a': 1.000, 'b': 2.000, 'c': 3.000}
 
