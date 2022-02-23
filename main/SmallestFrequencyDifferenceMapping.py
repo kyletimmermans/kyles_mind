@@ -17,7 +17,10 @@ def mapping(list_one, list_two):
 	for key, value in list_one.items():
 		difference = 999  # Start largest difference possible
 		for key_two, value_two in list_two.items():
-			if (abs(value - value_two)) < difference:  # If we get a smaller difference, this number is then a closer number
+			if value == value_two:  # If the two frequencies are excatly identical, the difference can't be any smaller-
+				difference = 0	# -then they are definitely the same
+				saved_key = key_two
+			elif (abs(value - value_two)) < difference:  # If we get a smaller difference, then this number is a closer number
 				difference = abs(value - value_two)  # abs() because difference could be negative, just want how far apart, no signs
 				saved_key = key_two  # Keep track of the closest key
 		translation[key] = saved_key
