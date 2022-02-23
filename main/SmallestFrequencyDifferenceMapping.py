@@ -26,3 +26,17 @@ def mapping(list_one, list_two):
 print( mapping(frequency_list_one, frequency_list_two) )
 
 # Output: {'a': 'x', 'b': 'y', 'c': 'z'}
+
+
+'''
+
+abs() logic
+
+
+ 1
+ 0     Although 1 is closer to 0 than -3 is (1 unit away vs 3 units away), techinally -3
+-1     is smaller than 1. We need to disregard signs with abs(), which gives us the net
+-2     difference or "just the units away". We need magnitude, not direction.
+-3
+
+'''
