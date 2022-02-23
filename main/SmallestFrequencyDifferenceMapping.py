@@ -6,11 +6,12 @@ frequency_list_one = {'a': 1.000, 'b': 2.000, 'c': 3.000}
 
 frequency_list_two = {'x': 1.001, 'y': 2.002, 'z': 3.003}
 
-translation = {}
 
 def mapping(list_one, list_two):
-	# For all elements of one list, check each element against
-	# the other list, to find its counterpart
+	'''For all elements of one list, check each element against
+	   the other list, to find its counterpart'''
+	
+	translation = {}
 
 	# Least difference, means they are the closest together (more likely to be the same char)
 	for key, value in list_one.items():
