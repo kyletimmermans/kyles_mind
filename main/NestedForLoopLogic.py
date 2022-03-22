@@ -11,14 +11,14 @@ again. This repeats until the outer loop finishes.
 
 E.g.
 
-1st:								2nd:
----									---
+1st:				    2nd:
+---				    ---
 							
-\									 ^
- \ Outer loop triggers 			 	  \ Once the inner-most loop finishes,
-  \  inner loops, until we			   \  we move up to the outer-loops
+\				     ^
+ \ Outer loop triggers 		      \ Once the inner-most loop finishes,
+  \  inner loops, until we	       \  we move up to the outer-loops
    \   get to the inner-most loop       \  and finish the loops one by one 
-    \								     \   until we get to the outer-most loop 
+    \					 \   until we get to the outer-most loop 
      V                                    \    and finish it last
 '''
 
@@ -27,10 +27,10 @@ for i in range(2):
 	print("For loop i")
 	
 	for j in range(2):
-		print("	For loop j")
+		print("\tFor loop j")
 		
 		for k in range(2):
-			print("		For loop k")
+			print("\t\tFor loop k")
 
 
 '''
