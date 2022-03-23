@@ -13,8 +13,9 @@ E.g.
 
 1st:				    2nd:
 ---				    ---
-							
-\				     ^
+	
+    Start (Outer to Inner)		   Finish (Inner to Outer)
+\				     ^	
  \ Outer loop triggers 		      \ Once the inner-most loop finishes,
   \  inner loops, until we	       \  we move up to the outer-loops
    \   get to the inner-most loop       \  and finish the loops one by one 
