@@ -9,7 +9,7 @@ again. This repeats until the outer loop finishes.
 	
 	-https://tldp.org/LDP/abs/html/nestedloops.html
 
-The inside of a for loop must finish before it can continue. So an inner for loop must
+The inside of a for loop must finish before it can continue. So, an inner for loop must
 finish first before the outer for loop can continue.
 
 E.g.
