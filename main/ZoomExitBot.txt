@@ -21,7 +21,7 @@ in the call, then a majority of people left, therefore, class is most
 likely over and we can leave
 
 
-							[ ]
-Number of students:			[ ]  <-- Number of students that left (More than half)
-							[ ]
-							[x]  <-- Number of students still there (Less than half)
+			[ ]
+Number of students:	[ ]  <-- Number of students that left (More than half)
+			[ ]
+			[x]  <-- Number of students still there (Less than half)
