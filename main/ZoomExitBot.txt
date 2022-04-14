@@ -1,0 +1,27 @@
+// A program designed to automatically leave a zoom call
+// when a majority of people leave, indicating
+// then end of a meeting / class.
+
+# At beginning of call, get the normal amount
+# of people that should be there
+
+normal_amount_of_students = zoomCall.numOfParticipants
+
+
+while(1):
+
+	if (zoomCall.numOfParticipants < normal_amount_of_students / 2):
+		
+		zoomCall.leave()
+
+
+
+* If there are less than half the number of the normal amount students 
+in the call, then a majority of people left, therefore, class is most 
+likely over and we can leave
+
+
+							[ ]
+Number of students:			[ ]  <-- Number of students that left (More than half)
+							[ ]
+							[x]  <-- Number of students still there (Less than half)
