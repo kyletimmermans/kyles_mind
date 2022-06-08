@@ -1,19 +1,24 @@
 /*
         Find four consecutive values in a list
-               -Consecutive = All connected and all equal
-        E.g. 123477779
-
-        1  2  3  4    7        7        7       7    9
-                    [i-3] == [i-2] == [i-1] == [i]
-
+               -Consecutive = All in a row and all equal
+        
+        E.g. 12344445
+        
+        1  2  3         4            4             4          4      5
+                  [i-3] == 4   [i-2] == 4    [i-1] == 4   [i] == 4
+                  
         If the 3 values before and up to the current value all
-        match, we have 4 values that are all the same and right next
-        to each other, thus we have 4 consecutive numbers that are the same.
+        equal 4, then we have 4 fours right next to each other (in a row), 
+        thus we have 4 consecutive 4s.
         
         The -1, -2, -3 ... and so on checks that the positions are right next to
-        each other (all connected), and the '==' checks that they are the same number
-                -[] position and == makes sure we have consecutiveness
-*/                      
+        each other (all connected), and the '==' checks that they are equal to 4.
+                -  [] gets their positions
+                        -Get a group of 4 indexes (make a group)
+                -  == makes sure we have consecutiveness as they all need to equal 4
+                        -Make sure they all equal 4 (all the same)
+*/   
+
 
 #include <iostream>
 
@@ -25,10 +30,12 @@ bool isConsecutive(int values[], int size)
         bool isCons = false;
 
         for (int i = size - 1; i >= 0; i--)
-        {
-                if (values[i] == values[i-1] && values[i] == values[i-2] && values[i] == values[i-3])
-                {                               // Check that each of the 3 previous
-                        isCons = true;          // values before the current value, are all matching (4 matching values)
+        {       
+                // Check that each of the 3 previous, values before the current value, are all matching (4 matching values)
+                // We don't have to check if they are all equal to each other, if each index's value equals 4, then they are all the same
+                if (values[i] == 4 && values[i-1] == 4 && values[i-2] == 4 && values[i-3] == 4)
+                {
+                        isCons = true;
                 }
         }
 
