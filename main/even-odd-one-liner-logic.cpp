@@ -29,7 +29,7 @@ int main()
 {
 	int n = 7;
 
-	if ( !(n % 2) ) {				// Even (False) (0) --> Even (True)  (1)
+	if ( !(n % 2) ) {			// Even (False) (0) --> Even (True)  (1)
 		cout << "even" << endl;		// Odd  (True)  (1) --> Odd  (False) (0)
 	} else {
 		cout << "odd" << endl;
