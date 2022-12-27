@@ -3,26 +3,26 @@ username = "user1"
 
 # It is False if there are no True's in any()
 #    --------------------------------------------
-#    |								  			^
-#    v								  			|
+#    |								  			                  ^
+#    v								  			                  |
 if any(not c.isalnum() for c in username) == False:
 
 
 
 # Where True indicates c.isalnum() being False
-#	    |						           |	
-#	    |	    ----------------------------
-#	    |       |
-#	    v	    v    
+#	    |						                         |	
+#	    |	        ----------------------------
+#	    |         |
+#	    v	        v    
 if any(not c.isalnum() for c in username) == False:
 
 
 
 # c.isalnum() being False means there is a special char in the username
-#	  |				   				     		  |			
-#	  -----------		  	-----------------------
-#				|		   |
-#           	v   	   v
+#	  |				   				     		                    |			
+#	  -----------		  	     ------------------------
+#				      |		         |
+#           	v   	       v
 if any(not c.isalnum() for c in username) == False:
 
 
