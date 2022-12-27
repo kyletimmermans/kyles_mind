@@ -28,6 +28,7 @@ for i in range(len(friends_data)):
     temp_friend = friends_data[i][0]
     if temp_friend == last_friend:
         continue
+    print(temp_friend)
     # On next user, don't repeat the same user
     last_friend = temp_friend
     games = []
