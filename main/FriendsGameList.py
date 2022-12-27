@@ -35,8 +35,8 @@ for i in range(len(friends_data)):
     j = i
     # For each friend's games
     while friends_data[j][0] == temp_friend:
-        print(friends_data[j][1])
         games.append(friends_data[j][1])
+        print("   "+friends_data[j][1])
         j = j + 1
         # If we get to the end, don't go further
         if j == len(friends_data):
@@ -52,13 +52,13 @@ print(tabulate(final_data, showindex=False, headers='keys', tablefmt='psql'))
 For-Loop Logic Path:
 
 user2
-Halo
-Smash Bros
+   Halo
+   Smash Bros
 user3
-Halo
+   Halo
 user4
-CoD
-Smash Bros
+   CoD
+   Smash Bros
 
 
 Final Table:
