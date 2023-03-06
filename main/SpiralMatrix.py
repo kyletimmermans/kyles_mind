@@ -6,9 +6,9 @@ Leetcode: 54 - Spiral Matrix
 	  right ->
 	* * * * * * *     
 	            *   
- ^	* * * * *   *     
- |	*       *   * down
- up *   *   *   *  |
+     ^	* * * * *   *     
+     |	*       *   * down
+     up *   *   *   *  |
 	*   * * *   *  V
 	*           *     
 	* * * * * * *  
