@@ -43,10 +43,10 @@ def spiralOrder(matrix: list[list[int]]) -> list[int]:
 			spiral.append(matrix[c[0]][c[1]]) 
 		if outer_finished == True:
 			x = x - 1
-		# Let first right run pass over as first right pass
-		# will not change the bottom outer x wall
+		# Let the first right run pass over as the first right pass
+		# will not change the bottom outer x wall (first left pass)
 		outer_finished = True
-		# Finish case
+		# Finish case - We have all the elements so don't keep going
 		if len(spiral) == num_elements:
 			break
 
