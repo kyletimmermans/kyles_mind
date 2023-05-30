@@ -26,9 +26,9 @@ Two Sum problem or Reverse a String problems.
 
 E.g.
 
-	Pointer 1  Pointer 2
-	 Index 0	Index 4
-	   v           v
+    Pointer 1  Pointer 2
+     Index 0	Index 4
+       v           v
 arr = [1, 3, 4, 8, 9]
 
 Via https://algodaily.com/lessons/using-the-two-pointer-technique
