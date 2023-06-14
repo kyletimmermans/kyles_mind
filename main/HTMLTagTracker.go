@@ -61,15 +61,15 @@ func main () {
 
     // Collect all <A> tags in the outer-most <DL> tags
     // and not from any other level
-	for _, line := range lines[2:] {
-		if strings.Contains(line, "<DL>") {
-			tracker++
-		} else if strings.Contains(line, "</DL>") {
-			tracker--
-		} else if strings.Contains(line, "<A>") {
-			if (tracker == 0) {
-				fmt.Println(line)
-			}
+    for _, line := range lines[2:] {
+	if strings.Contains(line, "<DL>") {
+		tracker++
+	} else if strings.Contains(line, "</DL>") {
+		tracker--
+	} else if strings.Contains(line, "<A>") {
+		if (tracker == 0) {
+			fmt.Println(line)
 		}
 	}
+    }
 }
