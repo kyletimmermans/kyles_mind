@@ -59,11 +59,14 @@ def dijkstra(graph, src, V):
     print_solution(dist, parent, src)
 
 # example adjacency matrix
-graph = [[0, 2, 0, 6, 0],
-         [2, 0, 3, 8, 5],
-         [0, 3, 0, 0, 7],
-         [6, 8, 0, 0, 9],
-         [0, 5, 7, 9, 0]]
+# https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif
+graph = [[0, 7, 9, 0, 0, 14],  # 1
+         [7, 0, 10, 15, 0, 0], # 2
+         [9, 10, 0, 11, 0, 2], # 3
+         [0, 15, 11, 0, 6, 0], # 4
+         [0, 0, 0, 6, 0, 9],   # 5
+         [14, 0, 2, 0, 9, 0]]  # 6
+
 # number of vertices
 V = len(graph)
 # source vertex
