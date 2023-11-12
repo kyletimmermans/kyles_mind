@@ -37,7 +37,9 @@ def print_solution(dist, parent, src):
         print()
 
 # function to implement Dijkstra's Algorithm
-def dijkstra(graph, src, V):
+def dijkstra(graph, src):
+    # number of vertices
+    V = len(graph)
     # initialize distances of all vertices as infinity and source vertex as 0
     dist = [infinity] * V
     dist[src] = 0
@@ -67,9 +69,7 @@ graph = [[0, 7, 9, 0, 0, 14],  # 1
          [0, 0, 0, 6, 0, 9],   # 5
          [14, 0, 2, 0, 9, 0]]  # 6
 
-# number of vertices
-V = len(graph)
 # source vertex
 src = 0
 # run Dijkstra's Algorithm
-dijkstra(graph, src, V)
+dijkstra(graph, src)
