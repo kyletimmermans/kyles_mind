@@ -31,7 +31,7 @@ def print_solution(dist, parent, src):
     print("Vertex \t Distance from Source \t Path")
     # iterate over all vertices except the source vertex
     for i in range(1, len(dist)):
-        print(f"{src} -> {i} \t\t {dist[i]} \t\t\t\t", end=' ')
+        print(f"{src} -> {i} \t\t {dist[i]} \t\t", end=' ')
         # print the path from source to current vertex
         print_path(parent, i)
         print()
