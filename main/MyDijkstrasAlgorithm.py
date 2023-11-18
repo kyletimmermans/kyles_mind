@@ -37,6 +37,7 @@ move from smallest node to smallest node, we set nodes as visited (not visiting 
 find new potential better paths and compare them against the current best options.
 '''
 
+
 infinity = float('inf')
 
 
