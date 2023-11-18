@@ -41,6 +41,7 @@ find new potential better paths and compare them against the current best option
 infinity = float('inf')
 
 
+# Recursively go from final destination (1st child) to src node (final parent)
 # Child -> Parent -> Child -> Parent -> etc...
 # Index -> Value -> Index -> Value -> etc...
 def print_path(parent, j, spath):
