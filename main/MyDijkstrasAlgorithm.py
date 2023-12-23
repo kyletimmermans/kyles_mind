@@ -6,8 +6,10 @@ Get all of the shortest paths and their distances from a given node
 to all other nodes in a graph.
 
 -Visit the shortest distanced unvisited node. During the beginning of the algorithm
-this will be the src node (0 distance) while everyone else is still inf. After the 
-1st step, this will then follow the smallest neighbor visited.
+this will be the src node (0 distance) while everyone else is still inf. As the algorihtm
+continues, we continue this step of finding the shortest distanced unvisited node first,
+before the rest of the steps, so that we find the most promising paths first before exploring
+the node's neighbors. After the 1st step, this will then follow the smallest neighbor visited.
 
 -Mark it as visited so we don't visit it again and calculate paths we've already searched.
 
@@ -37,6 +39,14 @@ move from smallest node to smallest node, we set nodes as visited (not visiting 
 find new potential better paths and compare them against the current best options.
 '''
 
+'''
+GIST
+====
+
+Explore the most promising paths, mark current working node as visited,
+visit all its non-visited neighbors, and update dist[] and parent[] with the best
+paths and distances as we move through the graph.
+'''
 
 infinity = float('inf')
 
@@ -66,6 +76,7 @@ def dijkstra(graph, src):
     for _ in range(V):
 
         # Find the shortest distanced non-visited vertex to work with
+        # Explore the most promising paths first
         temp_min = infinity
         min_idx = -1
         for v in range(V):
