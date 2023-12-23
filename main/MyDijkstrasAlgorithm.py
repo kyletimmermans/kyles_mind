@@ -2,6 +2,9 @@
 Dijkstra’s Algorithm
 ====================
 
+Steps
+-----
+
 Get all of the shortest paths and their distances from a given node
 to all other nodes in a graph.
 
@@ -9,7 +12,7 @@ to all other nodes in a graph.
 this will be the src node (0 distance) while everyone else is still inf. As the algorihtm
 continues, we continue this step of finding the shortest distanced unvisited node first,
 before the rest of the steps, so that we find the most promising paths first before exploring
-the node's neighbors. After the 1st step, this will then follow the smallest neighbor visited.
+the node's neighbors, so it's more efficient and not at random.
 
 -Mark it as visited so we don't visit it again and calculate paths we've already searched.
 
@@ -23,7 +26,11 @@ node as it represents the pointer to the fastest path
 
 -Repeat
 
-parent[] - point each node to its parent node that creates the shortest path. We can
+
+Variables
+---------
+
+parent[] - Point each node to its parent node that creates the shortest path. We can
 follow child -> parent over and over again to create the lineage of shortest node connections
 
 dist[] - Keep track of all the distances it took to get from src node to node x. When we add
@@ -37,6 +44,9 @@ without overwriting any progress, but rather adding on to it.
 Both parent[] and dist[] are used to store the current best paths and their distances, and as we
 move from smallest node to smallest node, we set nodes as visited (not visiting visited nodes) and
 find new potential better paths and compare them against the current best options.
+
+visited[] - Store each node's state of being visited or not as "True" or "False". We use this
+to determine whether or not a node has been visited or not.
 '''
 
 '''
@@ -47,6 +57,7 @@ Explore the most promising paths, mark current working node as visited,
 visit all its non-visited neighbors, and update dist[] and parent[] with the best
 paths and distances as we move through the graph.
 '''
+
 
 infinity = float('inf')
 
