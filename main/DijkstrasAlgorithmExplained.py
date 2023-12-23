@@ -30,6 +30,9 @@ node as it represents the pointer to the fastest path
 Variables
 ---------
 
+visited[] - Store each node's state of being visited or not as "True" or "False". We use this
+to determine whether or not a node has been visited or not.
+
 parent[] - Point each node to its parent node that creates the shortest path. We can
 follow child -> parent over and over again to create the lineage of shortest node connections
 
@@ -44,9 +47,6 @@ without overwriting any progress, but rather adding on to it.
 Both parent[] and dist[] are used to store the current best paths and their distances, and as we
 move from smallest node to smallest node, we set nodes as visited (not visiting visited nodes) and
 find new potential better paths and compare them against the current best options.
-
-visited[] - Store each node's state of being visited or not as "True" or "False". We use this
-to determine whether or not a node has been visited or not.
 '''
 
 '''
