@@ -8,15 +8,15 @@ Steps
 Get all of the shortest paths and their distances from a given node
 to all other nodes in a graph.
 
--Visit the shortest distanced unvisited node. During the beginning of the algorithm
+1. Visit the shortest distanced unvisited node. During the beginning of the algorithm
 this will be the src node (0 distance) while everyone else is still inf. As the algorihtm
 continues, we continue this step of finding the shortest distanced unvisited node first,
 before the rest of the steps, so that we find the most promising paths first before exploring
 the node's neighbors, so it's more efficient and not at random.
 
--Mark it as visited so we don't visit it again and calculate paths we've already searched.
+2. Mark it as visited so we don't visit it again and calculate paths we've already searched.
 
--For the current node, visit all the neighbor node’s connected to it, if the distance
+3. For the current node, visit all the neighbor node’s connected to it, if the distance
 from the src to the current node + the distance it will take to get to the neighbor
 from the currently selected node is less than the distance it currently takes to get
 from the src node to get to said neighbor, update that neighbor’s distance to be the
@@ -24,7 +24,7 @@ distance it takes to get to the currently selected node + the distance it takes 
 to said neighbor. And also update said neighbor’s parent to be the currently selected
 node as it represents the pointer to the fastest path
 
--Repeat
+4. Repeat
 
 
 Variables
