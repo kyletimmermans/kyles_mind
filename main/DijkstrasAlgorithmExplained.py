@@ -12,7 +12,8 @@ to all other nodes in a graph.
 this will be the src node (0 distance) while everyone else is still inf. As the algorihtm
 continues, we continue this step of finding the shortest distanced unvisited node first,
 before the rest of the steps, so that we find the most promising paths first before exploring
-the node's neighbors, so it's more efficient and not at random.
+the node's neighbors, so it's more efficient and not at random. We need this step to move
+throughout the graph so we can explore it and make more comparisons.
 
 2. Mark it as visited so we don't visit it again and calculate paths we've already searched.
 
