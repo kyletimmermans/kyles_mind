@@ -1,0 +1,5 @@
+The key contains ciphertexts that are mapped to plaintexts.
+
+So you can use the key to map a plaintext char to a ciphertext char
+
+And then a ciphertext char to a plaintext char
