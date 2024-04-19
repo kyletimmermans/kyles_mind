@@ -1,0 +1,11 @@
+1. Initialize: Set the starting node’s distance to 0 and all other nodes’ distances to infinity. Mark all nodes as unvisited. 
+
+2. Select: Choose the unvisited node with the smallest distance, this is the current node.
+
+3. Explore: For the current node, consider all of its unvisited neighbors and calculate their tentative distances through the current node. Compare the newly calculated tentative distance to the current assigned value and assign the smaller one.
+
+4. Mark as Visited: Once all neighbors of the current node have been explored, mark the current node as visited. 
+
+5. Repeat: If the destination node has been marked visited (when planning a route between two specific nodes) or if the smallest tentative distance among the nodes in the unvisited set is infinity (when planning a complete traversal), then stop. Otherwise, select the unvisited node that is marked with the smallest tentative distance, set it as the new “current node”, and repeat steps 3-4. 
+
+6. End: Once the destination node has been visited or there are no more unvisited nodes, the algorithm ends and the shortest path has been found.
