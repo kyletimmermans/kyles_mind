@@ -18,7 +18,7 @@
 	within the if-statement, adding the result of mod 2 gives the same effect. It
 	just so happens in this case that the result of the mod 2 check gives the exact
 	value that can be added to the computed pixels to make an odd number even and
-	also not affect an already even number
+	also not affect an already even number.
 */
 
 :root { --always-even: calc(round(4vh, 1px) + mod(round(4vh, 1px), 2px)); }
