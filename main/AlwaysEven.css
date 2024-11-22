@@ -1,0 +1,24 @@
+/*
+	Let's say we need an HTML element to always have an even number of pixels
+	wide/tall, but we're using a unit like '4vh' which can vary in its number
+	of computed pixels.
+
+	Typically, to check if something is even or odd, we can use x mod 2, and if
+	its 0, then we know its even since we split it in two w/ nothing leftover,
+	and if its 1, then its odd, it was split evenly, but 1 was leftover.
+
+	CSS, at the time of writing this, does not have if-statements. The magic here
+	is that the result of the mod() check can used to make anything even. When we
+	get 0 from the mod(), we know its even, so we don't want to change anything.
+	Thus adding 0 won't change it, which we want. If we get 1 from mod(), we know
+	its odd, and to change an odd number to even, we just add +1, which makes it
+	even.
+
+	Instead of need an if-statement and then the associated action that would fire
+	within the if-statement, adding the result of mod 2 gives the same effect. It
+	just so happens in this case that the result of the mod 2 check gives the exact
+	value that can be added to the computed pixels to make an odd number even and
+	also not affect an already even number
+*/
+
+:root { --always-even: calc(round(4vh, 1px) + mod(round(4vh, 1px), 2px)); }
