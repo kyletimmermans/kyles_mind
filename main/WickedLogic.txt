@@ -68,4 +68,4 @@ however, remove all the oranges and just be left with the bananas.
 of the final list. I do not follow the bots but they follow me back. Thus,
 the bots only meet 1 of 2 conditions and cannot be removed from the following list.
 
-The keyword is 'any', remove 'any' followers from following, not 'all of them
+The keyword is 'any', remove 'any' followers from following, not 'all' of them
