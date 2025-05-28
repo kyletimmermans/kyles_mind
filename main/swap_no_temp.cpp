@@ -21,6 +21,12 @@
 		a = a(ab) - b(a) = b
 		
 		a = b, b = a
+
+
+		Gist:
+
+		Add them both up, take one out and you get one, then take that one out of the double
+		and you'll end up with the other one
 */
 
 #include <iostream>
