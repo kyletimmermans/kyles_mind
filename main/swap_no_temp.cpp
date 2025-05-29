@@ -26,7 +26,7 @@
 		Gist:
 
 		Add them both up, take one out and you get one, then take that one out of the double
-		and you'll end up with the other one
+		and you'll end up with the other one. Its about keeping both rather than overwriting.
 */
 
 #include <iostream>
